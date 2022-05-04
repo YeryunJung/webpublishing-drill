@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  background-color: #F0E8D9;
+  font-family: "BMJUA";
+}
+
+@font-face { scr: url("fonts/BMJUA_otf.otf");
+font-family: "BMJUA";
+}
+
+.header {
+  text-align: center;
+  margin-top: 75px;
+  margin-bottom: 75px;
+  font-family: "BMJUA";
+}
+
+h1 {
+  font-size: 64px;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-size: 32px;
+}
+
+.menu {
+  margin-bottom: 50px;
+}
+
+.menu .photo {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 300px;
+  height: 200px;
+  background-size: cover;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.menu #chicken {
+    background-image: url("../images/chicken.jpg");
+}
+
+.menu #sushi {
+    background-image: url("../images/sushi.jpg");
+}
+
+.menu #burger {
+    background-image: url("../images/burger.jpg");
+}
+
+.menu #bibimbap {
+    background-image: url("../images/bibimbap.jpg");
+}
+
+.menu .menuBox {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 300px;
+  background-color: white;
+  color: #58595B;
+  padding: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.menu .menuBox .foodName {
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.menu .menuBox .foodDetail {
+  margin-bottom: 16px;
+}
+
+.menu .menuBox .checkout {
+  text-align: center;
+  background-color: white;
+}
+
+p {
+  background-color: white;
+}
+
+.menu .menuBox .checkout a {
+  text-decoration: none;
+  background-color: white;
+  color: #0000EE;
+}
